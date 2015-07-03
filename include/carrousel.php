@@ -14,21 +14,20 @@
 
 		<ul class="giant-carousel__list" style="height: 702px; margin:-25px 0 0 0">
 
-			<li class="giant-carousel__list-item" style="background-image: url(http://intv.tv.br/off/images/cristo1.jpg);">
-				<span class="giant-carousel__item-caption">Central do Cristo</span>
-				<a href="#" class="giant-carousel__item-link" data-push="true">Ver Projeto</a>
-			</li>
-
 			<li class="giant-carousel__list-item" style="background-image: url(http://intv.tv.br/off/images/wifi-users.png);">
 				<span class="giant-carousel__item-caption">INTV Wi-Fi</span>
 				<a href="#" class="giant-carousel__item-link" data-push="true">Ver Projeto</a>
 			</li>
-			<li class="giant-carousel__list-item" data-kiu="mobile-switch" data-desktop-image="http://intv.tv.br/off/images/slider01.jpg" data-mobile-image="http://intv.tv.br/off/images/slider01.jpg" data-tablet-image="http://intv.tv.br/off/images/slider01.jpg" data-kiu-mode="desktop" style="background-image: url(http://intv.tv.br/off/images/slider01.jpg);">
-				<span class="giant-carousel__item-caption">Propriedades de Imagem</span>
+			<li class="giant-carousel__list-item" data-kiu="mobile-switch" data-desktop-image="http://intv.tv.br/off/images/slider02.jpg" data-mobile-image="http://intv.tv.br/off/images/slider01.jpg" data-tablet-image="http://intv.tv.br/off/images/slider01.jpg" data-kiu-mode="desktop" style="background-image: url(http://intv.tv.br/off/images/slider01.jpg);">
+				<span class="giant-carousel__item-caption">Social Media INTV</span>
 				<a href="#" class="giant-carousel__item-link" data-push="true">Ver Projeto</a>
 			</li>
-			<li class="giant-carousel__list-item" data-kiu="mobile-switch" data-desktop-image="http://intv.tv.br/off/images/slider02.jpg" data-mobile-image="http://intv.tv.br/off/images/slider01.jpg" data-tablet-image="http://intv.tv.br/off/images/slider01.jpg" data-kiu-mode="desktop" style="background-image: url(http://intv.tv.br/off/images/slider01.jpg);">
-				<span class="giant-carousel__item-caption">Social Media</span>
+			<li class="giant-carousel__list-item" data-kiu="mobile-switch" data-desktop-image="http://intv.tv.br/off/images/slider01.jpg" data-mobile-image="http://intv.tv.br/off/images/slider01.jpg" data-tablet-image="http://intv.tv.br/off/images/slider01.jpg" data-kiu-mode="desktop" style="background-image: url(http://intv.tv.br/off/images/slider01.jpg);">
+				<span class="giant-carousel__item-caption">Sponsorships</span>
+				<a href="#" class="giant-carousel__item-link" data-push="true">Ver Projeto</a>
+			</li>
+			<li class="giant-carousel__list-item" style="background-image: url(http://intv.tv.br/off/images/cristo1.jpg);">
+				<span class="giant-carousel__item-caption">Cristo Redentor</span>
 				<a href="#" class="giant-carousel__item-link" data-push="true">Ver Projeto</a>
 			</li>
 

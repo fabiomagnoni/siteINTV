@@ -164,7 +164,7 @@ A INTV produz o conteúdo, distribui e presta o atendimento aos lojistas tornand
 											<li data-kiu="scroll-in-view keep-proportions" data-proportions-mobile="1:1" data-proportions-desktop="1:1" data-proportions-tablet="1:1" class="featured-work__list-item half  no-margin " style="height: 491px;">
 							<div class="featured-work__list-title-container" data-widget="paralllax" data-parallax-attr="bottom" data-parallax-max="-30" data-parallax-min="0">
 								<h2 class="featured-work__list-title">
-									SOCIAL MEDIA								</h2>
+									SOCIAL MEDIA INTV								</h2>
 								<a href="http://intv.tv.br/off/" class="featured-work__list-link" data-push="true">Ver Projeto</a>
 								<a href="http://www.firstborn.com/work/featured/291" class="featured-work__cover-link" data-analytics="button|click|Homepage - Featured Project - ANA Takeoff Mode" data-analytics-count="0" data-push="true">Ver Projeto</a>
 								<div class="featured-work__list-hover"></div>
@@ -174,7 +174,7 @@ A INTV produz o conteúdo, distribui e presta o atendimento aos lojistas tornand
 											<li data-kiu="scroll-in-view keep-proportions" data-proportions-mobile="1:1" data-proportions-desktop="1:1" data-proportions-tablet="1:1" class="featured-work__list-item half " style="height: 490px;">
 							<div class="featured-work__list-title-container" data-widget="paralllax" data-parallax-attr="bottom" data-parallax-max="-30" data-parallax-min="0">
 								<h2 class="featured-work__list-title">
-									PROPRIEDADES DE IMAGEM								</h2>
+									SPONSORSHIPS								</h2>
 								<a href="http://adage.com/article/agency-news/firstborn-adds-l-oreal-luxury-brands-client-roster/242168/" class="featured-work__list-link" data-push="true">View Article</a>
 								<a href="http://adage.com/article/agency-news/firstborn-adds-l-oreal-luxury-brands-client-roster/242168/" class="featured-work__cover-link" data-analytics="button|click|Homepage - Featured Project - L&#39;Oréal Luxe Digital Agency of Record" data-analytics-count="0" data-push="true">View Article</a>
 								<div class="featured-work__list-hover"></div>
