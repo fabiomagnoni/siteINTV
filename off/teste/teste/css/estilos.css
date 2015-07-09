@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+
+.giant-carousel__pagination-prev{ background-image:url(../images/btn-carrousel-up.png)!important; width:39px!important; height:39px!important}
+.giant-carousel__pagination-next{ background-image:url(../images/btn-carrousel-down.png)!important; width:39px!important; height:39px!important}
+
+#carrousel{ height:570px!important; margin:200px 0 0 0}

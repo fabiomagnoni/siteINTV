@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0; background-color:#989898; font-family:Arial, Helvetica, sans-serif; }
+
+#container{ width:100%; margin:0 auto;}
+
+#topo{ width:100%; background-image:url(../images/bg-topo.jpg); height:216px; margin:-20px 0 0 0; padding:10px 0 0 0;}
+
+#topo-menu { width:76%; padding:0 12% 0 12%; float:left; margin:0;  border-top:1px dotted #000000; height:216px}
+#topo-menu ul{ margin:0 ; padding:0;}
+#topo-menu li{ list-style:none; margin:0 30px 0 0px; padding:0; float:left; width:85px; height:50px;}
+#topo-menu li a{list-style:none; margin:40px 30px 0 0px;  display:block; background-color:#333; width:95px; height:50px; opacity:0.7; font-size:12px; color:#FFF; text-decoration:none; padding:30px 8px 0px 8px; float:left;}
+#topo-menu li a:hover{list-style:none; margin:40px 30px 0 0px; padding:30px 8px 0px 8px; display:block; background-color:#fff; width:95px; height:50px;  opacity:0.7; font-size:12px; color:#000; text-decoration:none; float:left;}
+
+.box01{background-color:#333; color:#FFF; padding:3px; width:400px}
+#home{margin:0 25px 0 25px; width:261px; display:block; float:left; background-image: url(../images/logo-madein.png); height:163px}
+
+#slider{width:100%; float:left; padding:0!important; margin:0 0 0 -2px!important;  border-top:1px dotted #000000; border-bottom:1px dotted #000000; height:310px }
+
+
+#topo-slider{margin: 0; width:100%; float:left;  height:310px;}
+
+#corpo{ width:76%; margin:30px 0 20px 0; float:left;  padding:10px 12% 0 12%;}
+	#corpo-box01{ width:500px; margin:0 40px 0 0; float:left;}
+		#corpo-box01 h1{ font-size:45px;}
+		#corpo-box01 h2{ font-size:20px; }		
+		#corpo-box01 p{ font-size:18px; margin:0; padding:0}				
+
+	#corpo-box02{ width:205px; margin:170px 45px 0 0; float:left;}
+		#corpo-box02 h1{font-size:25px;}
+		#corpo-box02 h2{}		
+		#corpo-box02 p{}				
+
+	#corpo-box03{ width:205px; margin:170px 0 0 0; float:left;}		
+		#corpo-box03 h1{font-size:25px;}
+		#corpo-box03 h2{}		
+		#corpo-box03 p{}				
+
+
+	#corpo-box04{ width:410px; margin:30px 0 0 0; float:left;}		
+		#corpo-box04 h1{font-size:25px;}
+		#corpo-box04 h2{}		
+		#corpo-box04 p{}		
+
+
+
+		#corpo-box01 ul{ margin:0 ; padding:0;}
+		#corpo-box01 li{ list-style:none; margin:0px; padding:0; float:left;}
+		#corpo-box01 li a{list-style:none; margin: 0; padding:0px;  font-size:14px; color:#000; text-decoration:none; text-transform:uppercase;}
+		#corpo-box01 li a:hover{list-style:none; margin:0; padding:0px; font-size:14px; color:#fff; text-decoration:none; text-transform:uppercase; background-color:#000}
+
+
+
+	#corpo-box05{ width:100%; margin:0 45px 0 0; float:left;}
+		#corpo-box05 h1{ font-size:45px;}
+		#corpo-box05 h2{ font-size:20px; }		
+		#corpo-box05 p{ font-size:18px; margin:0; padding:0}				
+
+		#corpo-box05 ul{ margin:0 ; padding:0;}
+		#corpo-box05 li{ list-style:none; margin:0px; padding:0; float:left;}
+		#corpo-box05 li a{list-style:none; margin: 0; padding:0px;  font-size:14px; color:#000; text-decoration:none; text-transform:uppercase;}
+		#corpo-box05 li a:hover{list-style:none; margin:0; padding:0px; font-size:14px; color:#fff; text-decoration:none; text-transform:uppercase; background-color:#000}
+
+
+
+		.link02{ color:#000 !important; text-decoration:none;  margin:0px;}	
+		a.link02{ color:#fff !important; text-decoration:none; padding:3px;  margin:0px; opacity: .8; background-color:#000; }	
+		a:hover.link02{color:#fff !important; font-weight:normal; text-decoration: none; padding:3px;  margin:0px; opacity: 100; background-color:#000;}
+
+
+
+		.thickbox{ color:#000 !important; text-decoration:none;  margin:0px;}	
+		a.thickbox{ color:#000 !important; text-decoration:none; padding:3px;  margin:0px; opacity: .8;}	
+		a:hover.thickbox{  color:#000 !important; font-weight:normal; text-decoration: none; padding:3px;  margin:0px; opacity: 100;} 	
+
+
+
+	#corpo-box05a{ width:400px; margin:0 ; padding:15px 15px 0 15px; float:left; border-top:1px dotted #000000; height:350px; opacity:  }		
+		#corpo-box05a h1{font-size:25px;}
+		#corpo-box05a h2{}		
+		#corpo-box05a p{ text-align:center;}		
+
+
+	#corpo-box05b{ width:480px; padding:15px 0px 0 15px; float:left; border-top:1px dotted #000000; border-left:1px dotted #000000; height:350px;}		
+		#corpo-box05b h1{font-size:25px;}
+		#corpo-box05b h2{font-size:20px;}		
+		#corpo-box05b p{}		
+
+
+	#corpo-box05d{ width:100%; padding:30px; float:left; }		
+		#corpo-box05d h1{font-size:25px;}
+		#corpo-box05d h2{font-size:20px;}		
+		#corpo-box05d p{ padding:0}		
+
+		
+		.form-assina{ width:100%; float:left; margin:10px 0 0 0; padding:10px 0 0 0; border-top: #999 1px dotted;}
+.input-btn-ok{ background-image:url(../images/btn-input.png) width:41px; height:43px; border:0; display:block; float:left; margin:-10px 10px 0 -10px;}
+.input-assina{ background-image:url(../images/bg-input.png); width:164px; height:33px; border:0; margin:-10px 0 0 0; display:block; float:left; font-size:15px; color:#666; padding:5px}
+
+.input-fale{ width:300px; border:1px dotted #999999; padding:6px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif}
+.input-fale-btn-ok{ background-image:url(../images/btn-input.png); width:41px; height:43px; border:0; display:block; float:right; margin:-50px 60px 0 0}
+
+
+
+#rodape{width:76%; padding:0 12% 0 12%; clear:both; border-top:1px dotted #000000; margin:20px 0 0 0;  }
+
+#rodape p { font-weight:bold; padding: 20px 0 20px 0 }

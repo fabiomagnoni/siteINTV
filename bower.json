@@ -1,0 +1,20 @@
+{
+  "name": "siteINTV",
+  "version": "1.0.0",
+  "homepage": "https://github.com/fabiomagnoni/siteINTV",
+  "authors": [
+    "Fábio Magnoni <fabiohmagnoni@gmail.com>"
+  ],
+  "description": "INTV WebSite",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
