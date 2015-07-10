@@ -262,6 +262,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
+    height: 100%;
+    width: auto;
     text-align: center;
     color: #fff;
     background-attachment: scroll;
@@ -272,8 +274,6 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height: 100%;
-    width: 100%;
 }
 
 header .intro-text {
@@ -307,6 +307,8 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
+        height: 100%;
+        width: 100%;
         margin-bottom: 25px;
         font-family: "Arial Rounded MT Bold", "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
@@ -652,7 +654,8 @@ section h3.section-subheading {
 }
 
 aside.clients img {
-    margin: 50px auto;
+    max-width: 115px;
+    height: auto;
 }
 
 section#contact {
