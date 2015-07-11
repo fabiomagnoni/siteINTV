@@ -1,0 +1,126 @@
+/* Museo */
+
+@font-face{
+        font-family:"MuseoSlab";
+        src:url("fonts/Museo/Museo_Slab_900.otf");
+        font-weight: 900;
+}
+
+@font-face {
+	font-family: "MuseoSlab";
+	src:url('fonts/Museo/Museo_Slab_700.otf');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: "MuseoSlab";
+    src: url('fonts/Museo/museo_slab_500italic-webfont.eot?') format('eot'),
+         url('fonts/Museo/museo_slab_500italic-webfont.woff') format('woff'),
+         url('fonts/Museo/museo_slab_500italic-webfont.ttf') format('truetype'),
+         url('fonts/Museo/museo_slab_500italic-webfont.svg') format('svg');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face{
+        font-family:"MuseoSlab";
+        src:url("fonts/Museo/Museo_Slab_300.otf");
+        font-weight: 300;
+}
+
+@font-face{
+        font-family:"MuseoSlab";
+        src:url("fonts/Museo/Museo_Slab_100.otf");
+        font-weight: 100;
+}
+
+/* Avenir */
+
+@font-face{
+    font-family:"Avenir";
+    src:url("fonts/Avenir/AvenirLTStd-Light.otf");
+    font-weight: 200;
+}
+
+@font-face{
+    font-family:"Avenir";
+    src:url("fonts/Avenir/AvenirLTStd-Roman.otf");
+    font-weight: 400;
+}
+
+@font-face{
+    font-family:"Avenir";
+    src:url("fonts/Avenir/212ab03d-5db2-4d6a-b94c-171cc702aa51.eot?#iefix");
+    src:url("fonts/Avenir/212ab03d-5db2-4d6a-b94c-171cc702aa51.eot?#iefix") format("eot"),url("fonts/Avenir/2cac77ec-9bc0-4ee7-87e4-27650190744f.woff") format("woff"),url("fonts/Avenir/aaf11848-aac2-4d09-9a9c-aac5ff7b8ff4.ttf") format("truetype"),url("fonts/Avenir/294099f3-8d00-4676-afc5-5e9d8d43ad69.svg#294099f3-8d00-4676-afc5-5e9d8d43ad69") format("svg");
+    font-weight: 500;
+}
+
+@font-face{
+    font-family:"Avenir";
+    src:url("fonts/Avenir/avenir-85-heavy-latin-1.ttf");
+    font-weight: 600;
+}
+
+@font-face{
+    font-family:"Avenir";
+    src:url("fonts/Avenir/avenir-95-black-latin-1.ttf");
+    font-weight: 700;
+}
+
+/* actually, we don't have these fonts...
+@font-face {
+	font-family: 'Avenir';
+	src:url('fonts/Avenir/AvenirLTStd_Black.eot');
+	src:url('fonts/Avenir/AvenirLTStd_Black.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Avenir/AvenirLTStd_Black.woff') format('woff'),
+		url('fonts/Avenir/AvenirLTStd_Black.ttf') format('truetype'),
+		url('fonts/Avenir/AvenirLTStd_Black.svg#boingo') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+*/
+
+
+
+/* Custom Icon Font */
+@font-face {
+    font-family: 'icon';
+    src:url('fonts/icons/boingo.eot');
+    src:url('fonts/icons/boingo.eot?#iefix') format('embedded-opentype'),
+        url('fonts/icons/boingo.svg#icomoon') format('svg'),
+        url('fonts/icons/boingo.woff') format('woff'),
+        url('fonts/icons/boingo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    -webkit-text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    -moz-text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+}
+
+@font-face {
+    font-family: 'boingo';
+    src:url('fonts/icons/boingo.eot');
+    src:url('fonts/icons/boingo.eot?#iefix') format('embedded-opentype'),
+        url('fonts/icons/boingo.svg#icomoon') format('svg'),
+        url('fonts/icons/boingo.woff') format('woff'),
+        url('fonts/icons/boingo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    -webkit-text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    -moz-text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+}
+
+[data-icon]:before {
+    font-family: 'boingo';
+    content: attr(data-icon);
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
