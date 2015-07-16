@@ -427,8 +427,80 @@ section h3.section-subheading {
     z-index: 2;
 }
 
+/* Formatos */
+#formato .formato-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#formato .formato-item .formato-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#formato .formato-item .formato-link .formato-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(240, 95, 64,.9);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#formato .formato-item .formato-link .formato-hover:hover {
+    opacity: 1;
+}
+
+#formato .formato-item .formato-link .formato-hover .formato-hover-content {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#formato .formato-item .formato-link .formato-hover .formato-hover-content i {
+    margin-top: -12px;
+}
+
+#formato .formato-item .formato-link .formato-hover .formato-hover-content h3,
+#formato .formato-item .formato-link .formato-hover .formato-hover-content h4 {
+    margin: 0;
+}
+
+#formato .formato-item .formato-caption {
+    margin: 0 auto;
+    padding: 25px;
+    width: 400px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#formato .formato-item .formato-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+#formato .formato-item .formato-caption p {
+    margin: 0;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+#formato * {
+    z-index: 2;
+}
+
 @media(min-width:767px) {
-    #portfolio .portfolio-item {
+    #portfolio .portfolio-item #formato .formato-item {
         margin: 0 0 30px;
     }
 }
@@ -871,4 +943,91 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #F05F40;
+}
+
+.results-box {
+    background: white;
+    padding-bottom: 24px;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-clip: padding-box;
+    overflow: hidden;
+}
+.results-box + p {
+    margin: 12px 0;
+    color: #989ba0;
+    font-size: 12px;
+}
+.results h5 {
+    line-height: 130%;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    background-color: whitesmoke;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f0f0f0));
+    background-image: -webkit-linear-gradient(top, #ffffff, #f0f0f0);
+    background-image: -moz-linear-gradient(top, #ffffff, #f0f0f0);
+    background-image: -o-linear-gradient(top, #ffffff, #f0f0f0);
+    background-image: linear-gradient(to bottom, #ffffff, #f0f0f0);
+}
+.results .figure {
+    font-size: 18px;
+    line-height: 130%;
+}
+.results-row {
+    padding: 48px 0;
+    clear: both;
+    margin: 0 24px;
+    border-bottom: 1px solid #cfcfcf;
+}
+.results-row:last-child {
+    border-bottom: 0;
+}
+.results-row .figure {
+    text-align: center;
+}
+.results-row .bg img {
+    opacity: 0.5;
+}
+.results-row .graphs-container,
+.results-row .progress {
+    overflow: visible;
+}
+.results .progress-bar {
+    position: relative;
+    overflow: visible;
+    border-radius: 4px;
+}
+.trm .progress-bar:after {
+    position: absolute;
+    top: -29px;
+    right: -23px;
+}
+.bmp .progress-bar:after {
+    position: absolute;
+    top: 35px;
+    right: -23px;
+}
+.ir .trm .progress-bar:after {
+    content: url(http://corpsitev2-golden.s3.amazonaws.com/wp-content/uploads/2014/02/media_results_ir_tip_top.png);
+}
+.ir .bmp .progress-bar:after {
+    content: url(http://corpsitev2-golden.s3.amazonaws.com/wp-content/uploads/2014/02/media_results_ir_tip_bottom.png);
+    right: -7px;
+}
+.it .trm .progress-bar:after {
+    content: url(http://corpsitev2-golden.s3.amazonaws.com/wp-content/uploads/2014/02/media_results_time_tip_top.png);
+}
+.it .bmp .progress-bar:after {
+    content: url(http://corpsitev2-golden.s3.amazonaws.com/wp-content/uploads/2014/02/media_results_time_tip_bottom.png);
+}
+.ctr .trm .progress-bar:after {
+    content: url(http://corpsitev2-golden.s3.amazonaws.com/wp-content/uploads/2014/02/media_results_ctr_tip_top.png);
+    right: auto;
+    left: -7px;
+}
+.ctr .bmp .progress-bar:after {
+    content: url(http://corpsitev2-golden.s3.amazonaws.com/wp-content/uploads/2014/02/media_results_ctr_tip_bottom.png);
 }
