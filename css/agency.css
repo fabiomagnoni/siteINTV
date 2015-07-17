@@ -457,7 +457,7 @@ section h3.section-subheading {
 
 #formato .formato-item .formato-link .formato-hover .formato-hover-content {
     position: absolute;
-    top: 100%;
+    top: 50%;
     width: 100%;
     height: 20px;
     margin-top: -12px;
@@ -988,8 +988,10 @@ body {
 .results-row .figure {
     text-align: center;
 }
+
 .results-row .bg img {
     opacity: 0.5;
+    margin-right: 10px;
 }
 .results-row .graphs-container,
 .results-row .progress {
